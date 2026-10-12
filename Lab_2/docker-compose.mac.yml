@@ -1,0 +1,19 @@
+# Варіант для macOS (Docker Desktop). Вікна Gazebo та RViz відкриваються в браузері:
+#   http://localhost:6080/vnc.html?autoconnect=1&resize=remote
+services:
+  sim:
+    image: fpv-lab2:humble-harmonic-mac
+    build:
+      context: docker
+      target: mac
+    container_name: fpv_lab2
+    init: true
+    shm_size: 2gb
+    ports:
+      - "127.0.0.1:6080:6080"
+    environment:
+      GZ_VERSION: harmonic
+      VNC_GEOMETRY: ${VNC_GEOMETRY:-1600x900}
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
