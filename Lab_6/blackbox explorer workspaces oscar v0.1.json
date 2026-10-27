@@ -1,0 +1,485 @@
+[
+    {
+        "title": "Oscar's WS",
+        "graphConfig": [
+            {
+                "fields": [
+                    {
+                        "name": "axisP[0]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#fb8072",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "axisI[0]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#8dd3c7",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "axisD[0]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#ffffb3",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "axisF[0]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#bebada",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "debug[0]",
+                        "smoothing": 0,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 0,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#80b1d3",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "gyroADC[0]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#fdb462",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "rcCommands[0]",
+                        "smoothing": 0,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 0,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#b3de69",
+                        "lineWidth": 1,
+                        "grid": false
+                    }
+                ],
+                "height": 1,
+                "label": "Roll"
+            },
+            {
+                "fields": [
+                    {
+                        "name": "axisP[1]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#fb8072",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "axisI[1]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#8dd3c7",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "axisD[1]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#ffffb3",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "axisF[1]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#bebada",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "debug[1]",
+                        "smoothing": 0,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 0,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#80b1d3",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "gyroADC[1]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#fdb462",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "rcCommands[1]",
+                        "smoothing": 0,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 0,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#b3de69",
+                        "lineWidth": 1,
+                        "grid": false
+                    }
+                ],
+                "height": 1,
+                "label": "Pitch"
+            },
+            {
+                "fields": [
+                    {
+                        "name": "axisP[2]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#fb8072",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "axisI[2]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#8dd3c7",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "axisF[2]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#bebada",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "debug[2]",
+                        "smoothing": 0,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 0,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#80b1d3",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "gyroADC[2]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#fdb462",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "rcCommands[2]",
+                        "smoothing": 0,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 0,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#b3de69",
+                        "lineWidth": 1,
+                        "grid": false
+                    }
+                ],
+                "height": 1,
+                "label": "Yaw"
+            },
+            {
+                "fields": [
+                    {
+                        "name": "motor[0]",
+                        "smoothing": 5000,
+                        "curve": {
+                            "power": 1,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 5000,
+                            "power": 1,
+                            "outputRange": 1
+                        },
+                        "color": "#fb8072",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "motor[1]",
+                        "smoothing": 5000,
+                        "curve": {
+                            "power": 1,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 5000,
+                            "power": 1,
+                            "outputRange": 1
+                        },
+                        "color": "#8dd3c7",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "motor[2]",
+                        "smoothing": 5000,
+                        "curve": {
+                            "power": 1,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 5000,
+                            "power": 1,
+                            "outputRange": 1
+                        },
+                        "color": "#ffffb3",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "motor[3]",
+                        "smoothing": 5000,
+                        "curve": {
+                            "power": 1,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 5000,
+                            "power": 1,
+                            "outputRange": 1
+                        },
+                        "color": "#bebada",
+                        "lineWidth": 1,
+                        "grid": false
+                    }
+                ],
+                "height": 1,
+                "label": "Motors"
+            },
+            {
+                "fields": [
+                    {
+                        "name": "gyroADC[0]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#fb8072",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "rcCommands[0]",
+                        "smoothing": 0,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 0,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#80b1d3",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "gyroADC[1]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#fdb462",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "rcCommands[1]",
+                        "smoothing": 0,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "default": {
+                            "smoothing": 0,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#b3de69",
+                        "lineWidth": 1,
+                        "grid": false
+                    }
+                ],
+                "height": 1,
+                "label": "Setpoint Tracking"
+            }
+        ]
+    }
+]
